@@ -1,6 +1,6 @@
-from scheduler import Scheduler
-from process import Process
 from typing import List
+from src.process import Process
+from src.scheduler import Scheduler
 
 class SRTScheduler(Scheduler):
     def run(self) -> dict:
